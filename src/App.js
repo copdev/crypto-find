@@ -18,7 +18,7 @@ const App = () => {
       console.log(coins)
     })
     .catch(err => console.log(err))
-  }, []);
+  }, [coins]);
 
   const handleChange = e => {
     setSearch(e.target.value);
